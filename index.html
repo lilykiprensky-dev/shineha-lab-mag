@@ -1,0 +1,551 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="実践女子大学・標葉ゼミのデジタルマガジン">
+  <meta name="robots" content="noindex,noimageindex">
+  <title>SHINEHA LAB｜標葉ゼミ</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;1,500&family=Noto+Sans+JP:wght@400;500;600&family=Noto+Serif+JP:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="reader" id="reader">
+    <header class="reader-header">
+      <button class="reader-mark" type="button" data-go="cover" aria-label="表紙へ戻る">S<span>/</span>L</button>
+      <p>SHINEHA LAB. — DIGITAL MAGAZINE</p>
+      <button class="contents-button" id="open-menu" type="button">CONTENTS <span>＋</span></button>
+    </header>
+
+    <div class="stage-viewport" id="stage-viewport">
+    <div class="stage" id="stage" aria-live="polite">
+
+
+      <!-- SCENE 01 / COVER：表紙 -->
+      <section class="scene scene-cover" id="cover" data-label="COVER" data-title="人と人の「あいだ」を、デザインする。">
+        <article class="page cover-page" data-page="COVER">
+          <img class="full-photo" src="images/cover.jpg" alt="プロトタイプする学生たちの写真">
+          <div class="photo-shade cover-shade"></div>
+          <header class="cover-meta"><span>JISSEN WOMEN'S UNIVERSITY</span><span>SEMINAR GUIDE / 2027</span></header>
+          <div class="masthead">
+            <p>COMMUNICATION DESIGN</p>
+            <h1><span>SHINEHA</span><span>Laboratory</span></h1>
+            <small>標葉ゼミ｜デジタル冊子</small>
+          </div>
+          <div class="cover-story">
+            <span>THE DIALOGUE ISSUE</span>
+            <h2>人と人の「あいだ」を、<br>デザインする。</h2>
+            <p>つくる。読み解く。対話する。<br>社会に新しい関係をひらく、2年間の学び。</p>
+          </div>
+          <div class="cover-lines"><span>WHAT WE DO</span><span>DUAL TRACKS</span><span>PROJECTS</span><span>THESIS</span></div>
+          <span class="open-hint">CLICK TO OPEN</span>
+        </article>
+      </section>
+
+      <!-- SCENE 02 / VISION-->
+      <section class="scene spread" id="vision" data-label="01 / VISION" data-title="コミュニケーション・デザインとは">
+        <article class="page paper vision-copy" data-page="02">
+          <div class="folio"><span>SHINEHA LAB. / 2027</span><span>02</span></div>
+          <header class="article-title"><span>EDITOR'S NOTE</span><h2>コミュニケーションは、<br>「伝える」だけじゃない。</h2></header>
+          <p class="dropcap">近年の情報・コミュニケーション技術の進展は、私たちの対話や、それを媒介するメディアのあり方を大きく変えてきました。標葉ゼミが注目するのは、多様化するメディア空間において、人びとの間にどのような関係や相互作用が生まれうるのかということです。</p>
+          <p>「コミュニケーション・デザイン」とは、人と人とのつながりや相互作用を設計し、コミュニケーションを介して新しい価値を生み出すこと。すでにある答えを届けるのではなく、異なる視点が出会い、新しい問いや価値が生まれる「場」や「仕掛け」をつくります。ともすれば断絶しがちな多様な価値観・人々をつなぐ、それがコミュニケーション・デザインです。</p>
+          <blockquote><b>“</b>社会を変える「もの」だけでなく、<br>社会が動き出す「関係」をつくる。</blockquote>
+        </article>
+        <article class="page paper vision-image-page dark" data-page="03">
+          <img class="feature-photo vision-photo" src="images/vision.jpg" alt="プロトタイプする学生たちの写真">
+          <div class="photo-note"><span>FIELD NOTE 01</span><p>異なる視点が交わるところから、プロジェクトは始まる。</p><p>——交差性 × 身体性メディア： その技術は誰のためのものか</p></div>
+          <div class="three-words"><div><b>CO-CREATION</b><span>共創</span></div><div><b>MEDIA</b><span>媒介</span></div><div><b>DIALOGUE</b><span>対話</span></div></div>
+          <span class="page-on-photo">03</span>
+        </article>
+      </section>
+
+      <!-- SCENE 03 / JOURNEY -->
+      <section class="scene spread" id="journey" data-label="02 / JOURNEY" data-title="3年から卒業研究まで">
+        <article class="page paper journey-photo-page dark" data-page="04">
+          <img class="full-photo" src="images/journey.jpg" alt="共同作業をする学生たちの写真">
+          <div class="photo-shade bottom-shade"></div>
+          <div class="vertical-word">LEARNING BY DOING</div>
+          <div class="journey-caption"><span>YEAR 03：Dual Track System</span><h2>まずは、両方やってみる。</h2><p>デザイン実践・メディア分析演習・基本文献の講読を通して、問いの立て方とデザイン・リサーチ技法の基礎を身につけます。</p></div>
+          <span class="page-on-photo">04</span>
+        </article>
+        <article class="page paper journey-copy" data-page="05">
+          <div class="folio"><span>SHINEHA LAB. / 2027</span><span>05</span></div>
+          <span class="eyebrow">FROM CURIOSITY TO RESEARCH</span>
+          <h2>興味をひらき、<br>まだ見ぬ問いへ。</h2>
+          <p><b>“常識とは18歳までに身につけた偏見のコレクションでしかない”</b>——アルベルト・アインシュタイン</p>
+          <!-- 項目追加：下の timeline-item を1つ複製してください -->
+          <div class="timeline">
+            <div class="timeline-item"><em>3年前期</em><b>幅をひろげる</b><p>つくる／読む／調べるを横断し、未知なことにも挑戦しながら視野を拡げます。</p></div>
+            <div class="timeline-item"><em>3年後期</em><b>関心を掘り下げる</b><p>自分の問題意識と、実際に調査・制作できる範囲をすり合わせます。</p></div>
+            <div class="timeline-item"><em>4年次</em><b>研究を動かす</b><p>デザイン実践系またはメディア分析系を選び、調査・分析／設計・開発を行います。</p></div>
+          </div>
+
+          <aside><strong>最初からテーマが決まっていなくても大丈夫。</strong><span>ゼミでは、最初から自分の関心をひとつに絞ることを求めません。多様なテーマに触れ、人と議論・共創するなかで、まずはものの見方や関心の幅をひろげます。そのうえで、自分は何を不思議に思い、何を明らかにしたいのか、あるいは何をデザインしたいのかを改めて考え、研究できる問いへと育てていきます。</span></aside>
+        </article>
+      </section>
+
+      <!-- SCENE 04 / TWO TRACKS -->
+      <section class="scene spread" id="tracks" data-label="03 / TWO TRACKS" data-title="つくる／読み解く">
+        <article class="page paper track-page track-design dark" data-page="06">
+          <div class="folio light"><span>SHINEHA LAB. / 2027</span><span>06</span></div>
+          <img class="track-photo" src="images/design.jpg" alt="プロトタイピングに取り組む様子">
+          <div class="track-body"><span>01 / DESIGN PRACTICE</span><h2>社会に届く<br>仕掛けをつくる。</h2><p>課題に合わせて、ゲーム、ワークショップ、動画、Web、アプリ、展示、冊子などのメディアを選びます。<br>試作して、使ってもらい、考え直す。徹底したプロトタイピングで「対話が生まれる仕掛け」を創ります。</p><div class="tag-row"><b>PROTOTYPING</b><b>CO-CREATION</b><b>FIELDWORK</b></div></div>
+        </article>
+        <article class="page paper track-page track-analysis dark" data-page="07">
+          <div class="folio light"><span>SHINEHA LAB. / 2027</span><span>07</span></div>
+          <img class="track-photo" src="images/analysis.jpg" alt="資料やデータを分析する様子">
+          <div class="track-body"><span>02 / MEDIA STUDIES</span><h2>メディア空間を<br>読み解く。</h2><p>SNS、YouTube、広告、ニュース、映像、レビュー、歌詞、会話。身近なメディアを研究対象に変え、量的・質的な分析から、人びとの語りや意味のつくられ方を捉えます。</p><div class="tag-row"><b>TEXT ANALYSIS</b><b>INTERVIEW</b><b>CRITICAL READING</b></div></div>
+        </article>
+      </section>
+
+      <!-- SCENE 05 / METHODS -->
+      <section class="scene spread" id="methods" data-label="04 / METHODS" data-title="ゼミで身につける方法">
+        <article class="page paper methods-title-page" data-page="08">
+          <div class="folio"><span>SHINEHA LAB. / 2027</span><span>08</span></div>
+          <div class="method-collage"><img class="collage-a" src="images/methods-1.jpg" alt="調査や議論の様子"><img class="collage-b" src="images/methods-2.jpg" alt="文献を読む様子"><span>OBSERVE<br>QUESTION<br>ANALYZE</span></div>
+          <span class="eyebrow">TOOLKIT FOR INQUIRY</span><h2>社会を見る<br>解像度を上げる。</h2><p>年度によって演習内容は変わります。<br>大切なのは、ひとつの方法に閉じず、問いに合う調べ方を選べるようになることです。</p>
+        </article>
+
+          <article class="page paper methods-list-page" data-page="09">
+            <div class="folio"><span>SHINEHA LAB. / 2027</span><span>09</span></div>
+
+            <div class="method-list"><span class="eyebrow">IN THE SHINEHA SEMINAR</span>
+              <div class="method-item"><em>01</em><h3>理論を学ぶ</h3><p>メディア論やデザイン論の基本文献を講読し、レンズを手にいれる。</p></div>
+              <div class="method-item"><em>02</em><h3>フィールドワーク</h3><p>現場に行く、観察する、当事者の方々と関わることを通して、学ぶ。</p></div>
+              <div class="method-item"><em>03</em><h3>広告を社会学する</h3><p>気になる広告を持ち寄り、記号化されたメッセージと社会の関係を読み解く。</p></div>
+              <div class="method-item"><em>04</em><h3>文化越境を考える</h3><p>翻訳・翻案・リメイクによって、意味や価値がどう変わるかを考察する。</p></div>
+              <div class="method-item"><em>05</em><h3>計量テキスト分析</h3><p>API等で取得したデータを整え、言葉の傾向・パターン・特徴を可視化する。</p></div>
+              <div class="method-item"><em>06</em><h3>質的データ分析</h3><p>語りをコード化し、量的研究では見えにくい受け止め方の違いを掘り下げる。</p></div>
+              <div class="method-item"><em>07</em><h3>生成AIを活用する</h3><p>分析・制作を補助させながら、バイアスやフェイク、個人情報等も検討する。</p></div>
+            </div>
+
+
+            <aside class="curriculum-bridge">
+              <span>BEYOND THE SEMINAR</span>
+              <h3>他の授業でも、土台と視野を広げよう。</h3>
+              <p>ゼミだけですべての理論や方法を学ぶことはできません。それぞれの関心で履修している他科目で得た知識や視点を持ち寄り、プロジェクトや卒業研究の問いを、より確かなものにしてほしいと考えています。</p>
+
+              <ul>
+                <li>理論・概念の土台</li>
+                <li>社会課題を多角的に見る視点</li>
+                <li>調査・分析の基礎</li>
+              </ul>
+            </aside>
+
+          </article>
+      </section>
+
+
+      <section class="scene spread" id="courses"
+        data-label="05 / RELATED COURSES"
+        data-title="履修を推奨する関連授業">
+
+        <!-- LEFT PAGE：導入＋2科目 -->
+        <article class="page paper courses-page courses-page-left" data-page="10">
+          <div class="folio">
+            <span>SHINEHA LAB. / 2027</span><span>10</span>
+          </div>
+
+          <header class="courses-heading">
+            <span class="eyebrow">RELATED COURSES</span>
+            <h2>他の科目とも、<br>学びをつなぐ。</h2>
+            <p>ゼミで試し、授業で深める。授業で得た視点を、またゼミに持ち帰る。<br>標葉ゼミの学びと特に関係の深い標葉担当の授業を紹介します。</p>
+          </header>
+
+          <div class="course-list course-list-two">
+            <!-- 科目01-->
+            <article class="course-card">
+              <img src="images/course-1.jpg" alt="ダーティプロトタイピングでコンセプトを発表している様子">
+              <div class="course-copy">
+                <div class="course-title">
+                  <span>01</span>
+                  <h3>実践デザインラボI（後期・1年〜）</h3>
+                </div>
+                <dl>
+                  <div><dt>何を学ぶ？</dt><dd>デザイン思考の入門コース。未来を描く力（インパクト思考）や行動データ活用などの未来に挑戦します。</dd></div>
+                  <div><dt>なぜ推奨？</dt><dd>デザイン実践における基本骨格となる思考法やフレームワークを多数扱います。ゼミでのデザイン実践では、基本的にはそれらを扱えること前提で進みます。</dd></div>
+                </dl>
+              </div>
+            </article>
+
+            <!-- 科目02 -->
+            <article class="course-card">
+              <img src="images/course-2.jpg" alt="車椅子ユーザーとともにフィールドワークに行く直前の様子">
+              <div class="course-copy">
+                <div class="course-title">
+                  <span>02</span>
+                  <h3>実践デザインラボII（前期・2年〜）</h3>
+                </div>
+                <dl>
+                  <div><dt>何を学ぶ？</dt><dd>「デザイン思考×システム思考」、インクルーシブデザインを学びます。フィールドワークあり。</dd></div>
+                  <div><dt>なぜ推奨？</dt><dd>現場主義＆徹底したプロトタイプなど、ゼミでのデザイン実践における基本を扱っています。そのため、配属決定した方で2年次に本授業を未履修の方は、3年次での履修を強く推奨しています。</dd></div>
+                </dl>
+              </div>
+            </article>
+          </div>
+        </article>
+
+        <!-- RIGHT PAGE：3科目 -->
+        <article class="page paper courses-page courses-page-right" data-page="11">
+          <div class="folio">
+            <span>SHINEHA LAB. / 2027</span><span>11</span>
+          </div>
+
+          <div class="courses-side-title">
+            <span>RECOMMENDED / 05 COURSES</span>
+            <p>詳細は最新のシラバスで確認してください。</p>
+          </div>
+
+          <div class="course-list course-list-three">
+            <!-- 科目03 -->
+            <article class="course-card course-card-compact">
+              <img src="images/course-3.jpg" alt="農業分野におけるゲノム編集技術の導入に関するイシューマップを検討している様子">
+              <div class="course-copy">
+                <div class="course-title"><span>03</span><h3>シリアスゲーム・デザイン演習（後期・2年〜）</h3></div>
+                <dl>
+                  <div><dt>何を学ぶ？</dt><dd>アナログゲームデザインを通して、複雑な社会の問題を構造から読み解くためのモデル化について学びます。</dd></div>
+                  <div><dt>なぜ推奨？</dt><dd>本授業で扱う「科学技術と社会に対する多面的なものの見方」は、異分野との「共創」に欠かせないベースとなっています。また本授業で制作したゲーム試作品を元に卒業研究を行った卒業生もたくさんいます。</dd></div>
+                </dl>
+              </div>
+            </article>
+
+            <!-- 科目04 -->
+            <article class="course-card course-card-compact">
+              <img src="images/course-4.jpg" alt="電子注文における視覚/認知特性の多様性配慮デザインについてゲストと一緒に検討している様子">
+              <div class="course-copy">
+                <div class="course-title"><span>04</span><h3>ジェンダード・イノベーション（前期・3年〜）</h3></div>
+                <dl>
+                  <div><dt>何を学ぶ？</dt><dd>性差分析・交差性分析に基づくイノベーション、交差性デザインについて、理論と実践の両方を学びます。</dd></div>
+                  <div><dt>なぜ推奨？</dt><dd>交差性デザインとは、年齢、性別、人種、社会経済的地位などの要素が重なり合うことで生じる、社会の不公平や格差に配慮して製品やサービスを設計する考え方です。交差性デザインは、ゼミで実施するプロジェクトの主要なキーワードの一つとなっています。</dd></div>
+                </dl>
+              </div>
+            </article>
+
+            <!-- 科目05 -->
+            <article class="course-card course-card-compact">
+              <img src="images/course-5.jpg" alt="リスク管理・コミュニケーション">
+              <div class="course-copy">
+                <div class="course-title"><span>05</span><h3>リスク・コミュニケーション（前期・3年〜）</h3></div>
+                <dl>
+                  <div><dt>何を学ぶ？</dt><dd>身の回りにあるさまざまなリスク・不確実性について、危機管理やそのためのコミュニケーションの理論を事例ベースで学びます。</dd></div>
+                  <div><dt>なぜ推奨？</dt><dd>メディア・コミュニケーションにかかわる問題の解決を考えるにあたっては、現代のリスク・不確実性についての理解が必要不可欠です。信頼される組織コミュニケーションとは何かを考えたい人には特におすすめです。</dd></div>
+                </dl>
+              </div>
+            </article>
+          </div>
+
+          <p class="courses-note">必ずしも全てを履修する必要はありません。学生自身の関心や卒業研究の方向に合わせて、履修計画を考えてください。</p>
+        </article>
+      </section>
+
+      <!-- SCENE 06 / PROJECTS -->
+      <section class="scene spread" id="projects" data-label="05 / PROJECTS" data-title="教室の外へ出るプロジェクト">
+        <article class="page paper projects-hero dark" data-page="12">
+          <img class="full-photo" src="images/projects.jpg" alt="展示で来場者と交流する様子">
+          <div class="photo-shade bottom-shade"></div>
+          <div class="folio light"><span>SHINEHA LAB. / 2027</span><span>12</span></div>
+          <div class="project-head"><span>OUTSIDE THE CLASSROOM</span><h2>教室の外へ。<br>まだ会っていない<br>誰かのもとへ。</h2><p>企業・NPO・他大学との協働、イベントや展示への出展。つくったものを社会にひらき、反応からもう一度考えます。</p></div>
+        </article>
+        <article class="page paper project-index" data-page="13">
+          <div class="folio"><span>SHINEHA LAB. / 2027</span><span>13</span></div>
+          <span class="eyebrow">SELECTED WORKS</span><h2>対話をひらく、<br>学生たち取り組み。</h2>
+
+          <div class="works-list">
+            <div class="work-item"><span>01</span><h3>ペリー来航の7日間</h3><p>生理をめぐる困りごとを体験し、協力して解決するボードゲーム</p></div>
+            <div class="work-item"><span>02</span><h3>ぎゅっと〜AIとともに生きる〜</h3><p>AIとの共生社会を、知識の多寡に関係なく考えるカードゲーム</p></div>
+            <div class="work-item"><span>03</span><h3>インフルアンサー</h3><p>ボットが蔓延るSNS空間での情報拡散を考える正体秘匿ゲーム</p></div>
+            <div class="work-item"><span>04</span><h3>グリーンシナリオゲーム</h3><p>渋谷の身近な緑化活動に気づくためのウェブシナリオゲーム</p></div>
+            <div class="work-item"><span>05</span><h3>CUDワークショップ</h3><p>色覚の多様性を理解し、誰もが見やすい配色・デザインを学ぶワークショップ</p></div>
+            <div class="work-item"><span>06</span><h3>Chop</h3><p>代替タンパク質に関する対話を促す、ベット形式のシリアスゲーム</p></div>
+            <div class="work-item"><span>07</span><h3>ベジジャラ</h3><p>菜食の背景や文化多様性をテーマとしたトランプゲームの拡張版</p></div>
+            <div class="work-item"><span>08</span><h3>SDGs de シンキング</h3><p>学生認知度が低いSDGs関連ワードに注目したカードゲーム</p></div>
+            <div class="work-item"><span>09</span><h3>くらベル、コレクション</h3><p>人による感覚やモノの見方の違いを可視化する、参加型インスタレーション</p></div>
+            <!--div class="work-item"><span>10</span><h3>教室利用状況データの公開</h3><p>渋谷キャンパスでの通常授業での教室利用状況を学生が把握できる</p></div-->
+
+          </div>
+          <div class="partners"><span>COLLABORATION &amp; FIELD</span><p>東急 Future Design Lab. ／ 博報堂×JR東日本 ／ Cybernetic being Lab. ／ EXPO2025「未来の都市」 ／ 車椅子インフルエンサー　／ サイエンスアゴラ ／ みんなの脳世界　／ ニューロダイバーシティプロジェクト  </p></div>
+        </article>
+      </section>
+
+      <!-- SCENE 07 / THESIS -->
+      <section class="scene spread" id="thesis" data-label="07 / THESIS" data-title="卒業研究のテーマ">
+        <article class="page paper thesis-intro" data-page="14">
+          <div class="folio"><span>SHINEHA LAB. / 2027</span><span>14</span></div>
+          <span class="eyebrow">THESIS IS YOUR PROJECT</span><h2>好き、違和感、<br>気になる。<br><i>そこから始める。</i></h2>
+          <p>卒業研究のテーマは、コミュニケーションデザイン実践／メディア研究の射程内で、学生の意志を最大限尊重して決めます。ただし研究は「思いつき」だけでは進みません。スキル、データ、フィールドへのアクセスを一緒に見極め、実行できる問いへ整えます。</p>
+          <blockquote>「好き」や「気になる」を語るだけで終わらせず、<br>社会を知るための問いに変える。</blockquote>
+        </article>
+        <article class="page paper thesis-samples" data-page="15">
+          <div class="folio"><span>SHINEHA LAB. / 2027</span><span>15</span></div>
+
+          <div class="thesis-column"><header><span>DESIGN PRACTICE</span><h3>つくる卒論</h3></header>
+            <p class="thesis-item"><em>01</em>SNS情報空間における情報拡散とボット挙動を題材としたゲーム教材の開発</p>
+            <p class="thesis-item"><em>02</em>人間と人工知能の共生社会を考えるシリアスゲーム『ぎゅっと〜AIとともに生きる〜』の開発とアイデア共創の試み</p>
+            <p class="thesis-item"><em>03</em>アクセシビリティにおけるラストワンマイル問題——データ収集</p>
+            <p class="thesis-item"><em>04</em>代替タンパク質をテーマとしたゲーム『Chop』の開発</p>
+            <p class="thesis-item"><em>05</em>生理に対する知識・理解を促す協力型ボードゲーム『ペリー来航の7日間』の開発</p>
+            <p class="thesis-item"><em>06</em>グリーンシナリオゲーム・ウェブ版のUI/UX評価</p>
+            <p class="thesis-item"><em>07</em>教育現場におけるカラーユニバーサルデザイン認知度向上の取り組み</p>
+          </div>
+          <div class="thesis-column media"><header><span>MEDIA STUDIES</span><h3>読み解く卒論</h3></header>
+            <p class="thesis-item"><em>01</em>Instagram 化粧品広告にみる「女性美」の多様性——アジア・アフリカ・北米・欧州比較</p>
+            <p class="thesis-item"><em>02</em>「THE FIRST TAKE」に見るインターネット時代の〈ライブ〉表現</p>
+            <p class="thesis-item"><em>03</em>『timelesz』ファンダムの境界線再編をめぐるThreadsコメント分析</p>
+            <p class="thesis-item"><em>04</em>仮面ライダーギーツの正義論</p>
+            <p class="thesis-item"><em>05</em>韓国映画『幼い依頼人』にみるポピュラーコンテンツの越境と社会性</p>
+            <p class="thesis-item"><em>06</em>J-POPミュージックビデオにおけるクィア表象</p>
+            <p class="thesis-item"><em>07</em>旧ジャニーズにおける「関西」の描かれ方・セルフオリエンタリズム</p>
+          </div>
+          <small>※誌面用に一部の題目を短く編集しています。原サイトにはこれまでの卒業研究例を多数掲載しています。</small>
+        </article>
+      </section>
+
+      <!-- SCENE 08 / YEAR & VOICES -->
+      <section class="scene spread year-voices-spread" id="year-voices"
+        data-label="08 / YEAR &amp; VOICES"
+        data-title="活動実績とゼミ生の声">
+
+        <!-- LEFT PAGE：写真＋2学年の具体的な年間スケジュール -->
+        <article class="page paper year-page" data-page="16">
+          <div class="folio"><span>SHINEHA LAB. / 2027</span><span>16</span></div>
+
+          <header class="yv-heading">
+            <div>
+              <span class="eyebrow">A YEAR IN PRACTICE</span>
+              <h2>実際に、<br>何をしてきた？</h2>
+            </div>
+            <p>活動内容は年度によって変わります。ここでは、二つの学年の一年を具体的に紹介します。</p>
+          </header>
+
+          <a href="https://www.change-tomorrow.tokyo/" target="_blank"><figure class="year-hero">
+            <img src="images/year-hero.jpg" alt="ゼミ生がチャレンジするイベント「ちょもろー」当日の様子">
+            <figcaption><b>FROM CLASSROOM TO FIELD</b><span>読む、調べる、つくる。そして、社会にひらく。</span></figcaption>
+          </figure></a>
+
+          <div class="year-columns">
+            <!-- 現4年生：3年次の活動実績 -->
+            <section class="year-column year-actual" aria-labelledby="year-actual-title">
+              <header>
+                <span>2025 / ACTUAL</span>
+                <h3 id="year-actual-title">現4年生｜3年次の活動実績</h3>
+              </header>
+
+              <div class="compact-timeline">
+                <article class="year-item">
+                  <time>4–5月</time>
+                  <div><h4>ものの見方を問い直す</h4><p>自己紹介と「タワー」／ニュース接触傾向と擬似環境／笹原和俊『ディープフェイクの衝撃』を講読し、AI技術とメディアについて議論／レゴを使ったインクルーシブな未来像の表現</p></div>
+                </article>
+                <article class="year-item">
+                  <time>6–7月</time>
+                  <div><h4>社会を見る「武器」を得る</h4><p>自分たちで専門書を選んで講読（名嶋義直編『リスクコミュニケーション』）／NHK「100分deメディア論」を視聴して議論（リップマン『世論』、サイード『イスラム報道』、山本七平『空気の研究』、オーウェル『1984』）</p></div>
+                </article>
+                <article class="year-item">
+                  <time>8–9月</time>
+                  <div><h4>教室の外へ、取材に出る</h4><p>ゼミ合宿で大阪・関西万博へ。未来の都市パビリオンの裏側や関係者にも取材し、各自でレポートを作成／分身ロボットカフェを体験・観察</p></div>
+                </article>
+                <article class="year-item">
+                  <time>9–10月</time>
+                  <div><h4>取材を、展示のアイデアへ</h4><p>「みんなの脳世界」に向けて企画を具体化／リサーチ、試作、テスト、改善を繰り返しながらインスタレーションの制作を進める</p></div>
+                </article>
+                <article class="year-item featured">
+                  <time>11月</time>
+                  <div><h4>展示し、社会へ広げる</h4><p>「ちょっと先の面白い未来（ちょもろー）」で「ワクワク／モヤモヤ ガチャ交換」のインスタレーションを展示／参加者の声を交差性の視点から分析／東急Future Design Lab.と意見交換し、青キャン・SOILへ展開</p></div>
+                </article>
+                <article class="year-item">
+                  <time>12月–春</time>
+                  <div><h4>実践を理論で捉え直す</h4><p>D・A・ノーマン『誰のためのデザイン？』を講読／先輩の卒論と発表会から学び、個別面談を通して卒業研究へ</p></div>
+                </article>
+              </div>
+            </section>
+
+            <!-- 現3年生：今年度の計画・進行中の活動 -->
+            <section class="year-column year-current" aria-labelledby="year-current-title">
+              <header>
+                <span>2026 / IN PROGRESS</span>
+                <h3 id="year-current-title">現3年生｜今年度の計画</h3>
+              </header>
+
+              <div class="compact-timeline">
+                <article class="year-item">
+                  <time>4–5月</time>
+                  <div><h4>ゼミを始め、メディアを読む</h4><p>自己紹介／コミュニケーションゲーム「Need 4 Speed」／『100分deメディア論』のうち第1＆2章を講読し、リップマン『世論』やサイード『イスラム報道』をもとに議論</p></div>
+                </article>
+                <article class="year-item">
+                  <time>6月</time>
+                  <div><h4>異なる分析方法を試す</h4><p>ウェブデータ収集＆計量テキスト分析／グループインタビュー＆質的分析（M-GTA）。データや語りを、問いに合わせて読み解く方法を体験</p></div>
+                </article>
+                <article class="year-item">
+                  <time>6–7月</time>
+                  <div><h4>アイデアを、動く形にする</h4><p>MESHを使ったIoTブロックプログラミング＆プロトタイピング／実際に使ってもらうユーザーテストと改善</p></div>
+                </article>
+                <article class="year-item">
+                  <time>7月</time>
+                  <div><h4>「交差性」を深掘りする</h4><p>秋の学外展示に向け、「交差性」12要素の概念についての理解を深めるワーク／展示企画のアイデア出しに向けて、これまでの自分たちの作品体験を棚卸し</p></div>
+                </article>
+                <article class="year-item">
+                  <time>8-9月</time>
+                  <div><h4>文献を読み込む</h4><p>各自が選んだ専門書を読んで書評を書く／秋の学外展示に向けたネタ探し／ゼミ合宿で2泊3日のハッカソンに挑戦！</p></div>
+                </article>
+                <article class="year-item featured">
+                  <time>秋</time>
+                  <div><h4>学外展示に向けて制作する</h4><p>「ちょっと先のおもしろい未来」への出展を目指し、感覚や身体の多様性を体験できる参加型メディアを制作</p></div>
+                </article>
+                <article class="year-item">
+                  <time>12月–春</time>
+                  <div><h4>経験を、自分の問いへ</h4><p>一年の活動を言葉にし、関心と問題意識を整理／先輩の卒論から学び、自分の卒業研究を動かし始める</p></div>
+                </article>
+              </div>
+            </section>
+          </div>
+
+          <p class="year-note">※「活動実績」と「計画」を区別して掲載しています。活動内容は年度や学生の関心に応じて変わります。</p>
+        </article>
+
+        <!-- RIGHT PAGE：活動写真＋学生の声 -->
+        <article class="page paper voices-page" data-page="17">
+          <div class="folio"><span>SHINEHA LAB. / 2027</span><span>17</span></div>
+
+          <header class="yv-heading voices-heading">
+            <div>
+              <span class="eyebrow">STUDENT VOICES</span>
+              <h2>ゼミ生から見た、<br>標葉ゼミ。</h2>
+            </div>
+            <p>入る前に知りたかったことを、ゼミ生自身の言葉で。</p>
+          </header>
+
+          <!--div class="voice-photos" aria-label="ゼミ活動の写真">
+            <figure class="voice-photo-main">
+              <img src="images/voices-main.jpg" alt="ゼミ生が議論や制作に取り組む様子">
+            </figure>
+            <figure class="voice-photo-sub">
+              <img src="images/voices-sub.jpg" alt="展示やフィールドワークに取り組む様子">
+            </figure>
+            <p><b>DISCUSS / MAKE / REFLECT</b><span>誰かと考え、自分の考えもつくっていく。</span></p>
+          </div-->
+
+          <div class="voice-grid">
+
+            <article class="voice-card voice-card-wide">
+              <span class="voice-question">WHY THIS LAB?</span>
+              <h3>このゼミを選んだ理由は？</h3>
+              <blockquote>幅広くメディアについて学びたいと思ったから／先輩方が明るく楽しそうにゼミについて話してくれて、自分も同じように活動したいと思った／グループ作業が多くあることに魅力を感じた／アクティブに活動したかったので、ちょもろーに魅力を感じた／メディアをデザインしたり、コミュニケーションについてより深く学びたいと思ったから／先生におすすめの本を聞いた時に興味のあるものばかりだったから／メディア系の勉強に興味があったから。また、せっかくなので座学だけでなくプレゼンや展示会の出展といったアクティブな活動ができるゼミに所属したかったから／ゼミでは自分の興味があることへ全力で取り組むことができるかを重視した</blockquote>
+            </article>
+
+            <article class="voice-card">
+              <span class="voice-question">BEFORE / AFTER</span>
+              <h3>入ってみてどうだった？</h3>
+              <blockquote>社会で見逃されてしまっているものやAI、リスクコミュニケーションなど幅広く学ぶことができ、自分の知識の幅が広がりました。また、研究領域が幅広いため、自分たちが興味のある分野をより深く学べることも良かったです／丸いテーブルでゼミをしているので、常にグループワークが出来る為、話し合いがしやすい雰囲気だと思う／合宿や展示会への出展など活動的で楽しい！大正解のゼミだと思う！！／先生が色々助言はしてくれて学べることが多くある一方で、自由度も高いので自分で考えるという力がよりついたと思う／グループで話し合う機会が多いので、ゼミ生同士で密にコミュニケーションを取れるので、すぐに仲良くなることができました／他のゼミではなかなか経験できないような経験を多くできていると思い非常に充実しています／先生からの課題は必要最低限だと感じていて、やりたいことがあるなら入る前に思っていたより自分の行動力か重要だとわかった
+              </blockquote>
+            </article>
+
+            <article class="voice-card accent">
+              <span class="voice-question">MEMORABLE</span>
+              <h3>印象に残っている活動は？</h3>
+              <blockquote>ちょもろー：準備は難しく大変でしたが、当日はお客さんに楽しんでもらうことができてよかった。他のブース体験でも新たな発見や学ぶことが多くあり非常に刺激的で楽しい時間だった。／万博ゼミ合宿では、プライベートで行っていたら発見できないようなものが多く、勉強といった違った視点で見ることができてよかった。万博で学んだことが今の生活に役立っていることが多くあります。／実際にイベント出展者として参加することが貴重な機会だったため、ちょもろーへの参加が印象に残っています／IoTブロックプログラミング。私自身何かの案を出すことは得意なほうだと感じていたが、制約がある中で考えることが難しかった。一方で、改めて誰かの笑顔を想像しながら何かを作ることは楽しいなと気づけた。／万博（夏合宿）での取材。本来であればなかなか入ることができない場所にも入れてもらい、貴重なお話を聞くなど、特別な体験ができたから
+          </blockquote>
+            </article>
+
+            <article class="voice-card">
+              <span class="voice-question">HONESTLY</span>
+              <h3>正直、大変だったことは？</h3>
+              <blockquote>幅が広いため、卒業論文のテーマを決めることに苦労しました／本を読んで、ディスカッションすること／本を読んでレジュメにまとめるのに苦戦しました／ちょもろー出展で、準備期間が短い中で0から1を生み出す作業が大変だった。方向性が定まるまでは何をどうしていいか全くわからなかった
+                ／多様性など正解がない難しいテーマを扱う為、展示会（ちょもろー）で来場者の方に自分達がやりたい事を分かりやすく伝える事の難しさを感じた</blockquote>
+            </article>
+
+            <article class="voice-card">
+              <span class="voice-question">FOR WHOM?</span>
+              <h3>どんな人に向いている？</h3>
+              <blockquote>興味の範囲が広い人、自分でこんなことがやりたい！と意思を持てる人が向いていると思う／自分が興味を持ったことに積極的に参加し、人任せにしない人が、このゼミを楽しめる人だと思う
+                ／好奇心旺盛な人やものづくりが好きな人に向いていると思います／社会問題を幅広い視点でアクティブに活動し考えたいと考えている人！／人と考えを共有して話し合いを通して考えを深めていくことへ苦痛を感じない人。知らないことを知ることを楽しいと思えるタイプはあっていると思う／個人作業が好きな人はグループワークが多いので大変だと思う</blockquote>
+            </article>
+
+            <article class="voice-card voice-card-wide">
+              <span class="voice-question">WHY THIS LAB?</span>
+              <h3>結局、「標葉ゼミ」ってどんなゼミ？</h3>
+              <blockquote>好奇心旺盛なゼミ！！／最高です！！やりたいことを尊重してくれるゼミです／やる時はやる、楽しむ時は楽しむ。その中で、一人一人が自分の意見をきちんと持ち、何事にも協力しながら学べるゼミ／前向きで真面目な人が多いゼミ。楽しみながらやる雰囲気のあるゼミだと思う
+                ／面白いことができて、新しいことをたくさん知ることができるわくわくするゼミです！／リーダーできる人がたくさんいる明るいゼミ／やる時はやる、楽しむ時は楽しむ。その中で、一人一人が自分の意見をきちんと持ち、何事にも協力しながら学べるゼミ
+                ／グループワークや分析、輪読など幅広い興味をカバーできる明るいゼミ</blockquote>
+            </article>
+
+          </div>
+          <p class="voice-edit-note">※学生の回答は、本人の確認を得たうえで掲載しています。</p>
+        </article>
+      </section>
+
+
+      <!-- SCENE 09 / FIT & FAQ -->
+      <section class="scene spread" id="fit" data-label="09 / FIT & FAQ" data-title="このゼミが合いそうな人">
+        <article class="page paper fit-page" data-page="18">
+          <div class="folio"><span>SHINEHA LAB. / 2027</span><span>18</span></div>
+          <span class="eyebrow">IS THIS YOUR PLACE?</span><h2>このゼミが、<br>合いそうな人。</h2>
+
+          <ul>
+            <li><b>社会の「当たり前」に、小さな違和感がある</b><span>まだ言葉にできなくても大丈夫です。</span></li>
+            <li><b>誰かとつくり、考え、試してみたい</b><span>共創プロジェクトへの積極的な参加を求めます。</span></li>
+            <li><b>未知のことにも、まず手を動かしてみたい</b><span>現時点での制作・分析スキルは問いません。</span></li>
+            <li><b>身近なメディアを、研究の目で見てみたい</b><span>SNS、映像、推し、広告も研究対象になります。</span></li>
+          </ul>
+          <blockquote>“適度な距離感が心地よい、<br>明るく優しい雰囲気”<small>—— ゼミ生によるゼミ・ゼミ生の雰囲気</small></blockquote>
+        </article>
+        <article class="page paper faq-page" data-page="19">
+          <div class="folio"><span>SHINEHA LAB. / 2027</span><span>19</span></div>
+          <span class="eyebrow">QUICK FAQ</span>
+
+          <details open><summary><span>Q1</span>テーマが決まっていなくても大丈夫でしょうか？</summary><p>大丈夫です。活動を通して関心を掘り下げます。配属前に関心があったテーマのまま卒業研究をする人は、実はそれほど多くありません。</p></details>
+          <details><summary><span>Q2</span>学外と連携する活動はありますか？</summary><p>年度によって異なりますが、社会連携型PBL、他大学とのワークショップ、外部イベント・コンペ等への参加の可能性があります。2027年度は、引き続き「ちょもろー」への出展は目指したいと考えています。</p></details>
+          <details><summary><span>Q3</span>合宿や懇親会はありますか？</summary><p>学生の希望に応じて検討し、基本的に任意参加です。2025年度は希望者で大阪・関西万博へ取材旅行に行きました。2026年度は「EM camp 2026」という二泊三日のハッカソン＠奥多摩に挑戦します。</p></details>
+          <details><summary><span>Q4</span>定員超過した場合は、何を見ますか？</summary><p>ゼミで扱う内容とのミスマッチが少ないこと、「共創」への関心、プロジェクトへの参加意欲、関連科目の履修状況や今後の学習意欲等を見て総合的に判断します。</p></details>
+          <div class="entry-box"><span>ENTRY / 2027</span><p>説明会終了後〜<strong>10月22日（木）23:55</strong></p><small>第1〜第3希望のいずれでも、希望者はフォームからエントリーしてください。</small></div>
+        </article>
+      </section>
+
+      <!-- SCENE 10 / BACK COVER -->
+      <section class="scene scene-back" id="back" data-label="BACK COVER" data-title="次の対話へ">
+        <article class="page back-page dark" data-page="20">
+          <img class="full-photo" src="images/back.jpg" alt="">
+          <div class="photo-shade back-shade"></div>
+          <div class="folio light"><span>SHINEHA LAB. / 2027</span><span>20</span></div>
+          <div class="back-copy"><span>JOIN THE CONVERSATION</span><h2>次の対話を、<br>ここから。</h2><p>実践女子大学 人間社会学部 社会デザイン学科<br>Communication Design / Shineha Lab.</p>
+
+            <div class="back-links"><a href="https://sites.google.com/jissen.ac.jp/shineha-lab/top" target="_blank" rel="noreferrer">ゼミ選択用サイト ↗</a><a href="https://sites.google.com/view/ishihara-shineha-lab/home" target="_blank" rel="noreferrer">研究室サイト ↗</a></div>
+          </div>
+          <footer><span>© JISSEN SHINEHA LAB. SINCE 2020</span><span>COMMUNICATION DESIGN</span></footer>
+        </article>
+      </section>
+    </div>
+    </div>
+
+    <footer class="reader-controls">
+      <button id="prev" type="button"><span class="arrow">←</span><span class="button-label">PREVIOUS</span></button>
+      <div class="progress"><div class="progress-line"><i id="progress-fill"></i></div><span id="counter">01 / 09</span></div>
+      <button id="next" type="button"><span class="button-label">NEXT</span><span class="arrow">→</span></button>
+    </footer>
+  </main>
+
+  <button class="menu-backdrop" id="menu-backdrop" type="button" aria-label="目次を閉じる"></button>
+  <aside class="contents-drawer" id="contents-drawer" aria-hidden="true">
+    <button class="drawer-close" id="close-menu" type="button" aria-label="目次を閉じる">×</button>
+    <header><span>TABLE OF</span><h2>Contents</h2><p>気になるページから読むこともできます。</p></header>
+
+    <nav>
+      <button type="button" data-go="cover"><span>COVER</span><b>人と人の「あいだ」を、デザインする。</b><em>↗</em></button>
+      <button type="button" data-go="vision"><span>01 / VISION</span><b>コミュニケーション・デザインとは</b><em>↗</em></button>
+      <button type="button" data-go="journey"><span>02 / JOURNEY</span><b>3年から卒業研究まで</b><em>↗</em></button>
+      <button type="button" data-go="tracks"><span>03 / TWO TRACKS</span><b>つくる／読み解く</b><em>↗</em></button>
+      <button type="button" data-go="methods"><span>04 / METHODS</span><b>ゼミで身につけるリサーチ技法</b><em>↗</em></button>
+      <button type="button" data-go="courses"><span>05 / RELATED COURSES</span><b>履修を推奨する関連授業</b><em>↗</em></button>
+      <button type="button" data-go="projects"><span>06 / PROJECTS</span><b>教室の外へ出るプロジェクト</b><em>↗</em></button>
+      <button type="button" data-go="thesis"><span>07 / THESIS</span><b>卒業研究のテーマ</b><em>↗</em></button>
+      <button type="button" data-go="year-voices"><span>08 / YEAR &amp; VOICES</span><b>活動実績とゼミ生の声</b><em>↗</em></button>
+      <button type="button" data-go="fit"><span>09 / FIT &amp; FAQ</span><b>このゼミが合いそうな人</b><em>↗</em></button>
+      <button type="button" data-go="back"><span>BACK COVER</span><b>次の対話へ</b><em>↗</em></button>
+
+    </nav>
+  </aside>
+
+  <noscript>このマガジンのページ送りにはJavaScriptを使用します。ブラウザのJavaScriptを有効にしてください。</noscript>
+  <script src="script.js"></script>
+</body>
+</html>
